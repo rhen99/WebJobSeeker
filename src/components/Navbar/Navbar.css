@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #fff;
+}
+.navbar__logo {
+  position: relative;
+  padding: 1rem 0;
+}
+.navbar__mobile__btn {
+  position: absolute;
+  right: 0;
+  top: 25%;
+  font-size: 1.2rem;
+  color: #333;
+}
+.navbar__mobile__btn:hover {
+  color: #01b7ff;
+}
+.navbar__logo__h1 {
+  font-size: 1.3rem;
+}
+.navbar__list {
+  overflow: hidden;
+  height: 0;
+}
+.navbar__list--left {
+  padding-bottom: 1rem;
+}
+.navbar__item {
+  padding: 1rem 0;
+}
+.navbar__link {
+  color: #333;
+}
+.navbar__link:hover {
+  color: #01b7ff;
+}
