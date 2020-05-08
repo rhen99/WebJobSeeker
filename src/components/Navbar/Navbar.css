@@ -3,7 +3,6 @@
 }
 .navbar__logo {
   position: relative;
-  padding: 1rem 0;
 }
 .navbar__mobile__btn {
   position: absolute;
@@ -17,14 +16,13 @@
 }
 .navbar__logo__h1 {
   font-size: 1.3rem;
+  padding: 1rem 0;
 }
 .navbar__list {
   overflow: hidden;
   height: 0;
 }
-.navbar__list--left {
-  padding-bottom: 1rem;
-}
+
 .navbar__item {
   padding: 1rem 0;
 }

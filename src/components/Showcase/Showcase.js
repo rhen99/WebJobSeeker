@@ -2,15 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Showcase.css";
 
-export const Showcase = () => {
+const Showcase = () => {
   return (
     <div className="showcase">
       <div className="showcase__inner">
         <h1 className="showcase__title">Seek Your Dreams</h1>
         <p className="showcase__secondary">Web Job Seeker</p>
-        <Link to="/register">Post A Job</Link>
-        <Link to="/register">Get A Job</Link>
+        <Link className="showcase__action btn--primary" to="/register">
+          Get A Job
+        </Link>
+        <Link to="/register" className=" showcase__action btn--secondary">
+          Post A Job
+        </Link>
       </div>
     </div>
   );
 };
+export default Showcase;

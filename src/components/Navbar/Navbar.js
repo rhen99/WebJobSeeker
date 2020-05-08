@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { Link, Switch, Route } from "react-router-dom";
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <div className="navbar">
       <div className="container">
@@ -45,3 +45,4 @@ export const Navbar = () => {
     </div>
   );
 };
+export default Navbar;

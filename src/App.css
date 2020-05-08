@@ -3,3 +3,11 @@
   margin: auto;
   padding: 0 1rem;
 }
+.btn--primary {
+  background-color: #00cf00;
+  color: #fff;
+}
+.btn--secondary {
+  background-color: #ff8800;
+  color: #fff;
+}

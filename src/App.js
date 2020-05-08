@@ -1,14 +1,16 @@
 import React from "react";
 import "./App.css";
-import { Navbar } from "./components/Navbar/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Showcase } from "./components/Showcase/Showcase";
+import Navbar from "./components/Navbar/Navbar";
+import Showcase from "./components/Showcase/Showcase";
+import HirePeople from "./components/HirePeople/HirePeople";
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Showcase />
+      <HirePeople />
     </Router>
   );
 }

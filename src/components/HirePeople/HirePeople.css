@@ -1,0 +1,32 @@
+.hire__people {
+  padding: 2rem 0;
+}
+.hire__title {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}
+.hire__people__grid {
+  grid-template-columns: 1fr;
+}
+.hire__people__job {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  position: relative;
+}
+.job__title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.job__type {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+.job__view__btn {
+  display: inline-block;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+}
