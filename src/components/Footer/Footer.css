@@ -1,0 +1,21 @@
+.footer {
+  background-color: #333;
+  padding: 2rem 0;
+}
+.footer__links {
+  text-align: center;
+}
+.footer__list__item {
+  margin: 0.5rem 0;
+}
+.footer__list__link {
+  color: #fff;
+}
+.footer__social__media {
+  padding: 0.5rem 0;
+}
+.footer__social__media__link {
+  margin: 0 0.5rem;
+  font-size: 1.3rem;
+  color: #fff;
+}

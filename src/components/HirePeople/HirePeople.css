@@ -19,11 +19,11 @@
   font-size: 1.3rem;
   font-weight: 700;
 }
-
-.job__type {
-  position: absolute;
-  top: 15%;
-  right: 5%;
+.job__details {
+  margin: 0.5rem 0;
+}
+.job__detail__label {
+  font-weight: 700;
 }
 .job__view__btn {
   display: inline-block;

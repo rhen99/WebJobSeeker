@@ -1,5 +1,13 @@
 .navbar {
   background-color: #fff;
+  top: 0;
+  z-index: 5;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 .navbar__logo {
   position: relative;
@@ -20,7 +28,8 @@
 }
 .navbar__list {
   overflow: hidden;
-  height: 0;
+  max-height: 0;
+  transition: max-height 800ms;
 }
 
 .navbar__item {
@@ -31,4 +40,8 @@
 }
 .navbar__link:hover {
   color: #01b7ff;
+}
+.navbar__list--opened {
+  max-height: 100vh;
+  transition: max-height 800ms;
 }
