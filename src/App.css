@@ -1,5 +1,5 @@
 .container {
-  max-width: 1600px;
+  max-width: 1300px;
   margin: auto;
   padding: 0 1rem;
 }
@@ -10,4 +10,7 @@
 .btn--secondary {
   background-color: #ff8800;
   color: #fff;
+}
+.push__footer {
+  min-height: calc(100vh - 50px);
 }

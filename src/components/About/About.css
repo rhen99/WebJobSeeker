@@ -1,0 +1,15 @@
+.about {
+  padding: 3rem 0;
+}
+.about__section__h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .about__section__h1 {
+    font-size: 2rem;
+  }
+  .about__section__p {
+    font-size: 1.3rem;
+  }
+}

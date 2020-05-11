@@ -35,6 +35,10 @@
 .navbar__item {
   padding: 1rem 0;
 }
+.navbar__auth {
+  padding: 0.3rem 0.6rem;
+  margin: 0 0.3rem;
+}
 .navbar__link {
   color: #333;
 }
@@ -44,4 +48,31 @@
 .navbar__list--opened {
   max-height: 100vh;
   transition: max-height 800ms;
+}
+@media (min-width: 1280px) {
+  .navbar__container {
+    display: flex;
+  }
+  .navbar__mobile__btn {
+    display: none;
+  }
+  .navbar__list {
+    max-height: 100%;
+    display: flex;
+  }
+  .navbar__item {
+    padding: 1.2rem 0;
+  }
+  .navbar__link {
+    display: inline-block;
+    padding: 0 1rem;
+  }
+  .navbar__list--left {
+    justify-content: flex-end;
+  }
+  .navbar__logo,
+  .navbar__list--left,
+  .navbar__list--right {
+    flex: 1;
+  }
 }

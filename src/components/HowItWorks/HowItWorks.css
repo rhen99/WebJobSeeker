@@ -1,0 +1,25 @@
+.howitworks {
+  padding: 3rem 0;
+}
+.howitworks__title {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+}
+.howitworks__section {
+  padding: 1rem 0;
+}
+.howitworks__section__title {
+  font-size: 1.3rem;
+  padding: 0.5rem 0;
+}
+@media (min-width: 1024px) {
+  .howitworks__title {
+    font-size: 2.1rem;
+  }
+  .howitworks__section__title {
+    font-size: 1.7rem;
+  }
+  .howitworks__section__text {
+    font-size: 1.3rem;
+  }
+}

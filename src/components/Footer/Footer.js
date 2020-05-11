@@ -10,23 +10,24 @@ function Footer() {
           <div className="footer__lists">
             <ul className="footer__list">
               <li className="footer__list__item">
-                <Link to="#" className="footer__list__link">
+                <Link to="/" className="footer__list__link">
                   Home
                 </Link>
               </li>
               <li className="footer__list__item">
-                <Link to="#" className="footer__list__link">
+                <Link to="/about" className="footer__list__link">
                   About
                 </Link>
               </li>
               <li className="footer__list__item">
-                <Link to="#" className="footer__list__link">
+                <Link to="how-it-works" className="footer__list__link">
                   How It Works
                 </Link>
               </li>
             </ul>
           </div>
           <div className="footer__social__media">
+            <h3 className="footer__social__media__title">Follow Us</h3>
             <a href="#" className="footer__social__media__link">
               <i className="fab fa-facebook"></i>
             </a>

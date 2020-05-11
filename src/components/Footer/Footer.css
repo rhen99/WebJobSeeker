@@ -14,8 +14,31 @@
 .footer__social__media {
   padding: 0.5rem 0;
 }
+.footer__social__media__title {
+  color: #fff;
+  text-align: center;
+}
 .footer__social__media__link {
   margin: 0 0.5rem;
   font-size: 1.3rem;
   color: #fff;
+}
+@media (min-width: 1024px) {
+  .footer__links {
+    display: flex;
+  }
+  .footer__lists {
+    flex: 1;
+  }
+  .footer__social__media {
+    flex: 1;
+  }
+  .footer__list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .footer__list__item {
+    margin: 0 1rem;
+  }
 }

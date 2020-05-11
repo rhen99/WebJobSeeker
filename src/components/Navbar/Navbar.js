@@ -23,14 +23,10 @@ const Navbar = () => {
   };
   return (
     <div className={isSticky ? "navbar sticky" : "navbar"}>
-      <div className="container">
+      <div className="container navbar__container">
         <div className="navbar__logo">
           <h1 className="navbar__logo__h1">WebJobSeeker</h1>
-          <a
-            href="#"
-            className="navbar__mobile__btn device--mobile"
-            onClick={toggleIsOpen}
-          >
+          <a href="#" className="navbar__mobile__btn" onClick={toggleIsOpen}>
             <i className="fas fa-bars"></i>
           </a>
         </div>
@@ -65,13 +61,13 @@ const Navbar = () => {
           }
         >
           <li className="navbar__item">
-            <Link className="navbar__link" to="/register">
-              Register
+            <Link className="navbar__auth btn--primary" to="/applicant-login">
+              Get a Job
             </Link>
           </li>
           <li className="navbar__item">
-            <Link className="navbar__link" to="/login">
-              Log In
+            <Link className="navbar__auth btn--secondary" to="/employer-login">
+              Post a Job
             </Link>
           </li>
         </ul>
