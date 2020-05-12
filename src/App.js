@@ -7,18 +7,18 @@ import HirePeople from "./components/HirePeople/HirePeople";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
+import ApplicantLoginForm from "./components/auth/ApplicantForms/ApplicantLoginForm/ApplicantLoginForm";
+import EmployerLoginForm from "./components/auth/EmployerForms/EmployerLoginForm/EmployerLoginForm";
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/how-it-works">
-          <HowItWorks />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
+        <Route path="/employer-login" exact component={EmployerLoginForm} />
+        <Route path="/applicant-login" exact component={ApplicantLoginForm} />
+        <Route path="/how-it-works" exact component={HowItWorks} />
+        <Route path="/about" exact component={About} />
         <Route path="/">
           <Showcase />
           <HirePeople />
