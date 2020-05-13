@@ -3,10 +3,25 @@
   background-color: #fff;
   width: 500px;
   padding: 3rem;
+  position: relative;
+}
+.form__progress {
+  height: 3px;
+  position: absolute;
+  background-color: #00cf00;
+  top: 0;
+  left: 0;
 }
 .form__title {
   text-align: center;
   font-size: 1.4rem;
+}
+.form__inline__inputs {
+  display: flex;
+}
+.form__inline__inputs .form__input {
+  flex: 1;
+  margin-right: 0.3rem;
 }
 .form__label {
   display: inline-block;
@@ -20,6 +35,28 @@
   width: 100%;
   font-size: 1.2rem;
   padding: 0.2rem 0.5rem;
+}
+textarea.form__input__field {
+  resize: none;
+  height: 80px;
+}
+.form__navigation {
+  position: relative;
+}
+.form__nav__btn {
+  border: 0;
+  font-size: 1.1rem;
+  padding: 0.3rem 0.6rem;
+  font-weight: 700;
+}
+.form__back {
+  color: #00cf00;
+  border: 1px solid #b9b9b9;
+  background-color: #fff;
+}
+.form__next {
+  position: absolute;
+  right: 0;
 }
 .btn__submit {
   border: 0;

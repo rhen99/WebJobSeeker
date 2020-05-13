@@ -9,6 +9,7 @@ import About from "./components/About/About";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import ApplicantLoginForm from "./components/auth/ApplicantForms/ApplicantLoginForm/ApplicantLoginForm";
 import EmployerLoginForm from "./components/auth/EmployerForms/EmployerLoginForm/EmployerLoginForm";
+import ApplicantRegisterForm from "./components/auth/ApplicantForms/ApplicantRegisterForm/ApplicantRegisterForm";
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
       <Switch>
         <Route path="/employer-login" exact component={EmployerLoginForm} />
         <Route path="/applicant-login" exact component={ApplicantLoginForm} />
+        <Route
+          path="/applicant-register"
+          exact
+          component={ApplicantRegisterForm}
+        />
         <Route path="/how-it-works" exact component={HowItWorks} />
         <Route path="/about" exact component={About} />
         <Route path="/">
